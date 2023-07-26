@@ -1,0 +1,12 @@
+git pull origin head
+----get the changes from github.com into your local computer
+
+
+To save your work:
+
+git add -A
+----add everything you have changed in your project to the commit in progress
+git commit -m  "..."
+----write an official new edit to your version history, message goes in the "..."
+git push origin HEAD
+----push your commit to your remote repository (online, github.com)
